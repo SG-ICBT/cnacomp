@@ -1,3 +1,9 @@
+.svn/
+.settings/
+bin/
+old/
+
+
 # Compiled class file
 *.class
 
