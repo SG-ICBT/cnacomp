@@ -14,9 +14,7 @@ An annotation database is required for running an analysis. This database needs 
 Download the source code from the repository (git-clone) and create a project in the IDE of your choice.
 Link the required libraries (picard, mysql-connector, jfreechart, jfreesvg, lz4-java, jcommon) to your project.
 There are basically two files that need to be edited in order to define a custom analysis.
-
 The cna.config.Config.java contains the paramaters for the database connection and a very small set of other configuration paramates (e.g. the number of threads used for parallel computations).
-
 The cna.CNA_Analysis.java contains the definition of the desired analysis, where the dataset is loaded, data subgroups are defined followed by the analysis steps and saving of the result (An example analysis with comments is provided in this file). There are three additional classes containing the functionality to define an analysis run (cna.CompositionAnalysis, cna.CoverageAnalysis, cna.FragmentSizeAnalysis). See the provided javadoc for information on how to use the functionaities provided by these classes.
 
 4. Run the analyis
