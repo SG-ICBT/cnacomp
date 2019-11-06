@@ -1,0 +1,16 @@
+<!ELEMENT task (genome, alignments)>
+<!ELEMENT genome (chromosomes)>
+<!ELEMENT chromosomes (chromosome+)>
+<!ELEMENT cromosome (name, size, fasta)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT size (#PCDATA)>
+<!ELEMENT fasta (#PCDATA)>
+<!ELEMENT alignments (alignment+)>
+<!ELEMENT alignment (id, path,label,infectionState, individual,time)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT path (#PCDATA)>
+<!ELEMENT label (#PCDATA)>
+<!ELEMENT infectionState (#PCDATA)>
+<!ELEMENT individual (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+
