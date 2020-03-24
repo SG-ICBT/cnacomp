@@ -1,15 +1,6 @@
 # cnacomp
 This repository contains java source code that was used for the analysis of circulating nuceic acids sequencing data. It does not intend to comprise a tool.
 
-# Related publication: 
-Circulating cell-free DNA is predominantly composed of retrotransposable elements and non-telomeric satellite DNA.
-
-PMID: 32165241 DOI: 10.1016/j.jbiotec.2020.03.002
-
-# The data used for this project is accessible at the NCBI bioproject PRJNA596372.
-
-https://www.ncbi.nlm.nih.gov/sra/PRJNA596372
-
 # Usage: 
 
 The following steps describe how to use the provides source code
@@ -30,3 +21,16 @@ The cna.CNA_Analysis.java contains the definition of the desired analysis, where
 
 4. Run the analyis
 After an analysis procedure is implemented, build an executable jar-file. This jar file need to be in the same directory as the dataset definition (xml + dtd file). It may be required to set the memory parameters (-Xms, -Xmx) for the java virtual machine in order to execute the analysis. 
+
+# Related publication: 
+Circulating cell-free DNA is predominantly composed of retrotransposable elements and non-telomeric satellite DNA.
+
+PMID: 32165241 
+DOI: 10.1016/j.jbiotec.2020.03.002
+
+https://doi.org/10.1016/j.jbiotec.2020.03.002
+
+# Data:
+The data used for this proejct is accessible at the NCBI bioproject PRJNA596372.
+
+https://www.ncbi.nlm.nih.gov/sra/PRJNA596372
