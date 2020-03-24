@@ -10,7 +10,7 @@ PMID: 32165241 DOI: 10.1016/j.jbiotec.2020.03.002
 
 https://www.ncbi.nlm.nih.gov/sra/PRJNA596372
 
-#Usage:
+# Usage: 
 
 The following steps describe how to use the provides source code
 
