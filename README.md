@@ -10,7 +10,7 @@ The first step to run an analysis is to prepare the target data, which is a set 
 An exampe for a dataset definition is given in exampleTask.xml (Note that the task.dtd file is also required).
 
 2. Annotation database
-An annotation database is required for running an analysis. This database needs to contain the refGene gene annotation (refGene, refLink) and the RepeatMasker annotation (rmsk) for the respective genome (e.g. hg38). The USCS mySQL database access is preconfigured in the cna.config.Config.java file. Note that UCSC will blacklist you for excessive use of this database, therefore it is recommended to run a private instance with the required database schema and tables (can be downloaded from USCS goldenpath).
+An annotation database is required for running an analysis. This database needs to contain the refGene gene annotation (refGene, refLink) and the RepeatMasker annotation (rmsk) for the respective genome (e.g. hg38). The UCSC mySQL database access is preconfigured in the cna.config.Config.java file. Note that UCSC will blacklist you for excessive use of this database, therefore it is recommended to run a private instance with the required database schema and tables (can be downloaded from USCS goldenpath).
 
 3. Source code
 Download the source code from the repository (git-clone) and create a project in the IDE of your choice.
